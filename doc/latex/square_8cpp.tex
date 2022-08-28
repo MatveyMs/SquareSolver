@@ -1,0 +1,141 @@
+\hypertarget{square_8cpp}{}\doxysection{C\+:/\+Users/Я/\+Desktop/С/\+Proj\+VSCode/square/square.cpp File Reference}
+\label{square_8cpp}\index{C:/Users/Я/Desktop/С/ProjVSCode/square/square.cpp@{C:/Users/Я/Desktop/С/ProjVSCode/square/square.cpp}}
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$math.\+h$>$}\newline
+{\ttfamily \#include $<$assert.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}square.\+hpp\char`\"{}}\newline
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{square_8cpp_afbd9aca0e00cb39bee213775565266a7}{Lin\+Solve}} (double b, double c, double $\ast$x1)
+\begin{DoxyCompactList}\small\item\em Solving a linear equation. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{square_8cpp_a2fbbadfdc53f9b81bb5e4a7202b0a346}{Square\+Solve}} (double a, double b, double c, double $\ast$x1, double $\ast$x2)
+\begin{DoxyCompactList}\small\item\em Solving a square equation. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{square_8cpp_a2a2ee7baf546463303d910670aa2e777}{Input}} (double $\ast$a, double $\ast$b, double $\ast$c)
+\begin{DoxyCompactList}\small\item\em Input function. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{square_8cpp_a58a33e2c5cd13c504ce2c8658f5b1e3c}{Output}} (double x1, double x2, int Number\+Of\+Solutions)
+\begin{DoxyCompactList}\small\item\em Output function fgfhgfhgf. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{square_8cpp_a015bf3999fdfda5742876ad8ea083173}{Zero\+Double}} (double num)
+\begin{DoxyCompactList}\small\item\em Comparison double type with zero. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{square_8cpp_a2a2ee7baf546463303d910670aa2e777}\label{square_8cpp_a2a2ee7baf546463303d910670aa2e777}} 
+\index{square.cpp@{square.cpp}!Input@{Input}}
+\index{Input@{Input}!square.cpp@{square.cpp}}
+\doxysubsubsection{\texorpdfstring{Input()}{Input()}}
+{\footnotesize\ttfamily bool Input (\begin{DoxyParamCaption}\item[{double $\ast$}]{a,  }\item[{double $\ast$}]{b,  }\item[{double $\ast$}]{c }\end{DoxyParamCaption})}
+
+
+
+Input function. 
+
+This function accepts the input of coefficients
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in,out}}  & {\em a} & \{coefficient a equation\} \\
+\hline
+\mbox{\texttt{ in,out}}  & {\em b} & \{coefficient b equation\} \\
+\hline
+\mbox{\texttt{ in,out}}  & {\em c} & \{coefficient c equation\}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+succesfull or unsuccesfull input ~\newline
+ 
+\end{DoxyReturn}
+\mbox{\Hypertarget{square_8cpp_afbd9aca0e00cb39bee213775565266a7}\label{square_8cpp_afbd9aca0e00cb39bee213775565266a7}} 
+\index{square.cpp@{square.cpp}!LinSolve@{LinSolve}}
+\index{LinSolve@{LinSolve}!square.cpp@{square.cpp}}
+\doxysubsubsection{\texorpdfstring{LinSolve()}{LinSolve()}}
+{\footnotesize\ttfamily int Lin\+Solve (\begin{DoxyParamCaption}\item[{double}]{b,  }\item[{double}]{c,  }\item[{double $\ast$}]{x1 }\end{DoxyParamCaption})}
+
+
+
+Solving a linear equation. 
+
+This function solving a linear equation
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em a} & \{coefficient a equation\} \\
+\hline
+\mbox{\texttt{ in}}  & {\em b} & \{coefficient b equation\} \\
+\hline
+\mbox{\texttt{ in}}  & {\em c} & \{coefficient c equation\} \\
+\hline
+\mbox{\texttt{ out}}  & {\em x1} & \{root of the solution\}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Number of solutions 
+\end{DoxyReturn}
+\mbox{\Hypertarget{square_8cpp_a58a33e2c5cd13c504ce2c8658f5b1e3c}\label{square_8cpp_a58a33e2c5cd13c504ce2c8658f5b1e3c}} 
+\index{square.cpp@{square.cpp}!Output@{Output}}
+\index{Output@{Output}!square.cpp@{square.cpp}}
+\doxysubsubsection{\texorpdfstring{Output()}{Output()}}
+{\footnotesize\ttfamily void Output (\begin{DoxyParamCaption}\item[{double}]{x1,  }\item[{double}]{x2,  }\item[{int}]{Number\+Of\+Solutions }\end{DoxyParamCaption})}
+
+
+
+Output function fgfhgfhgf. 
+
+This function displays the roots of the equation
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em x1} & \{first root\} \\
+\hline
+\mbox{\texttt{ in}}  & {\em x2} & \{second root\} \\
+\hline
+\mbox{\texttt{ in}}  & {\em Number\+Of\+Solutions} & \{number of solutions\} ~\newline
+ \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{square_8cpp_a2fbbadfdc53f9b81bb5e4a7202b0a346}\label{square_8cpp_a2fbbadfdc53f9b81bb5e4a7202b0a346}} 
+\index{square.cpp@{square.cpp}!SquareSolve@{SquareSolve}}
+\index{SquareSolve@{SquareSolve}!square.cpp@{square.cpp}}
+\doxysubsubsection{\texorpdfstring{SquareSolve()}{SquareSolve()}}
+{\footnotesize\ttfamily int Square\+Solve (\begin{DoxyParamCaption}\item[{double}]{a,  }\item[{double}]{b,  }\item[{double}]{c,  }\item[{double $\ast$}]{x1,  }\item[{double $\ast$}]{x2 }\end{DoxyParamCaption})}
+
+
+
+Solving a square equation. 
+
+This function solving a linear equation
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em a} & \{coefficient a equation\} \\
+\hline
+\mbox{\texttt{ in}}  & {\em b} & \{coefficient b equation\} \\
+\hline
+\mbox{\texttt{ in}}  & {\em c} & \{coefficient c equation\} \\
+\hline
+\mbox{\texttt{ out}}  & {\em x1} & \{root of the first solution\} \\
+\hline
+\mbox{\texttt{ out}}  & {\em x2} & \{root of the second solution\}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Number of solutions 
+\end{DoxyReturn}
+\mbox{\Hypertarget{square_8cpp_a015bf3999fdfda5742876ad8ea083173}\label{square_8cpp_a015bf3999fdfda5742876ad8ea083173}} 
+\index{square.cpp@{square.cpp}!ZeroDouble@{ZeroDouble}}
+\index{ZeroDouble@{ZeroDouble}!square.cpp@{square.cpp}}
+\doxysubsubsection{\texorpdfstring{ZeroDouble()}{ZeroDouble()}}
+{\footnotesize\ttfamily int Zero\+Double (\begin{DoxyParamCaption}\item[{double}]{num }\end{DoxyParamCaption})}
+
+
+
+Comparison double type with zero. 
+
+This function compares double number with zero 
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em num} & \{double number that will be compared with zero\} \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Boolean value 
+\end{DoxyReturn}
