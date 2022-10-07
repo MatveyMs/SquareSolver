@@ -29,6 +29,7 @@ int SquareSolve(double a, double b, double c, double* x1, double* x2)
 {
     assert(x1 != NULL);
     assert(x2 != NULL);
+    assert(x1 != x2);
     assert(isfinite(a));
     assert(isfinite(b));
     assert(isfinite(c));
@@ -62,6 +63,9 @@ bool Input(double* a, double* b, double* c)
     assert(a != NULL);
     assert(b != NULL);
     assert(c != NULL);
+    assert(a != b);
+    assert(b != c);
+    assert(c != a);
 
     printf("Enter a,b,c: ");
 
